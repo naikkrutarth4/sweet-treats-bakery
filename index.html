@@ -65,7 +65,7 @@ document.getElementById("feedbackForm").addEventListener("submit", function(e) {
         feedback: document.getElementById("feedback").value
     };
 
-    fetch("YOUR_WEB_APP_URL", {
+    fetch("https://script.google.com/macros/s/AKfycbzBWZEb3W5ezi0Yl3UdyC7ZtU2__lr8xEuo8M3h3pS9de_XsgZISk1GrHRyeUbbVBY4ug/exec", {
         method: "POST",
         body: JSON.stringify(data)
     })
