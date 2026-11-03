@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background-color: #fff5ee;
+}
+
+nav {
+    background-color: brown;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.home {
+    background-color: pink;
+    padding: 80px;
+}
+
+h1 {
+    color: brown;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+}
